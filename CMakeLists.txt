@@ -3,4 +3,4 @@ project(tcp_stack)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(tcp_stack main.cpp)
+add_executable(tcp_stack src/main.cpp src/tuntap_if.cpp)
